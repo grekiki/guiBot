@@ -39,5 +39,6 @@ public class rendering extends PApplet{
 		for(UnitData u:state.units) {
 			ellipse(10*u.x,10*u.y,20,20);//make an ellipse for our unit
 		}
+		text(shift,200,"This is some text");
 	}
 }
